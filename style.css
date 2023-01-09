@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: papayawhip;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0.651);
+    padding: 1rem;
+}
+nav ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-left: 40px;
+    color: white;
+    display: inline-block;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li li {
+    display: none;
+    font-size: 1rem;
+}
+ul li:hover >ul li{
+    display: block;
+    line-height: 2rem;
+}
+nav ul a:focus{background-color: black;}
+main h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+main h1 a{
+    text-decoration: none;
+}
+.latest_song{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+.follow{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    height: 3rem;
+    background-color: hsla(0, 0%, 0%, 0.651);
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.email{
+    color: white;
+}
+.test{
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.animate{
+    animation-name: go;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+}
+@keyframes go {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    header{
+        position: sticky;
+        top: 0;
+    }
+    nav{
+        min-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(0, 0%, 0%, 0.651);
+        padding: 0.5rem;
+    }
+    nav ul li{
+        list-style: none;
+        font-size: 1rem;
+        margin-left: 20px;
+        color: white;
+        display: inline-block;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    ul li li {
+        display: none;
+        font-size: 1rem;
+    }
+    ul li:hover >ul li{
+        display: block;
+        line-height: 2rem;
+    }
+    main h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    header{
+        position: sticky;
+        top: 0;
+    }
+    nav{
+        min-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(0, 0%, 0%, 0.651);
+        padding: 0.5rem;
+    }
+    nav ul li{
+        list-style: none;
+        font-size: 1rem;
+        margin-left: 20px;
+        color: white;
+        display: inline-block;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    ul li li {
+        display: none;
+        font-size: 1rem;
+    }
+    ul li:hover >ul li{
+        display: block;
+        line-height: 2rem;
+    }
+    main h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    header{
+        position: sticky;
+        top: 0;
+    }
+    nav{
+        min-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(0, 0%, 0%, 0.651);
+        padding: 1.5rem;
+    }
+    nav ul li{
+        list-style: none;
+        font-size: 1rem;
+        margin-left: 20px;
+        color: white;
+        display: inline-block;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    ul li li {
+        display: none;
+        font-size: 1.5rem;
+    }
+    ul li:hover >ul li{
+        display: block;
+        line-height: 2rem;
+    }
+    main h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
+  }
+
+
