@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://imgbox.com/pJUdNZFt" target="_blank"><img src="https://thumbs2.imgbox.com/95/68/pJUdNZFt_t.jpg")
+    background-image: url("https://thumbs2.imgbox.com/95/68/pJUdNZFt_t.jpg")
+    background-repeat: no-repeat;
 }
 header{
     position: sticky;
